@@ -1,0 +1,16 @@
+pkgbase = ditana-config-bash
+	pkgdesc = Ditana bash config
+	pkgver = 1.002
+	pkgrel = 1
+	url = https://ditana.org
+	arch = any
+	license = GPL-3.0-or-later AND custom:WTFPL AND ISC
+	depends = ditana-config-shell
+	depends = bash
+	depends = starship
+	source = file:///media/stefan/data/Documents/git/my-projects/acrion/ditana/packages/003-ditana-config-bash/.bashrc_ditana
+	source = file:///media/stefan/data/Documents/git/my-projects/acrion/ditana/packages/003-ditana-config-bash/ditana-bash-setup.sh
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = ditana-config-bash
